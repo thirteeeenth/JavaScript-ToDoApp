@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <title>TO-DO</title>
+    <link rel="icon" type="image/x-icon" href="list.png" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todoBox">
+        <h2>
+          To-Do List <img width="40px" height="40px" src="checklist.png" />
+        </h2>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Add your task..." />
+          <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container"></ul>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
